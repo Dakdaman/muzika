@@ -1,0 +1,21 @@
+from earsketch import *
+
+init()
+setTempo(120)
+fitMedia(YG_NEW_FUNK_SYNTH_1, 1, 7, 15)
+fitMedia(ENTREP_VOX_JAYZ_BUILD, 2, 1, 31)
+fitMedia(YG_NEW_FUNK_SYNTH_2, 3, 11, 15)
+fitMedia(YG_NEW_FUNK_SYNTH_BASS_1, 4, 3, 15)
+fitMedia(YG_NEW_FUNK_SYNTH_3, 5, 17, 29)
+fitMedia(YG_NEW_FUNK_SYNTH_2, 6, 17, 29)
+fitMedia(HIPHOP_VOCALHIT_002, 7, 16.75, 17)
+setEffect(7, VOLUME,GAIN,1, 60)
+setEffect(2, VOLUME,GAIN,-40, 1, 6, 17 )
+setEffect(4, VOLUME,GAIN,1, 1, 10, 17 )
+
+
+
+
+
+
+finish()
